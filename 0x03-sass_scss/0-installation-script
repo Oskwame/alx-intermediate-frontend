@@ -1,0 +1,20 @@
+Steps to install and set up SASS
+
+1. Opened PowerShell and navigated to the project directory:
+   cd Desktop/alx-intermediate-frontend
+
+2. Created a new directory for SASS setup:
+   mkdir 0x03-sass_scss
+   cd 0x03-sass_scss
+
+3. Verified that Node.js is installed by running:
+   node -v
+   npm -v
+
+4. Installed SASS using npm:
+   npm install sass -v 3.7.4
+
+5. Confirmed that SASS was installed successfully:
+   npx sass --version
+
+6. SASS is now ready to use for compiling .scss files into .css.

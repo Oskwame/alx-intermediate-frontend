@@ -1,9 +1,15 @@
-body {
-  margin-left: 10px;
-  margin-right: 10px;
+// Define a mixin for horizontal margins
+@mixin horizontal-margins($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
 }
 
+// Apply the mixin to body
+body {
+  @include horizontal-margins(10px, 10px);
+}
+
+// Apply the mixin to div
 div {
-  margin-left: 15px;
-  margin-right: 15px;
+  @include horizontal-margins(15px, 15px);
 }
